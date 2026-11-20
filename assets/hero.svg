@@ -1,0 +1,44 @@
+<svg width="850" height="210" viewBox="0 0 850 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cyberBg" x1="0" y1="0" x2="850" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#090D12" />
+      <stop offset="100%" stop-color="#0E1D15" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Card -->
+  <rect x="1" y="1" width="848" height="208" rx="14" fill="url(#cyberBg)" stroke="#00FF41" stroke-width="1.5" />
+
+  <!-- Subtle Grid Lines -->
+  <line x1="0" y1="52" x2="850" y2="52" stroke="#00FF41" stroke-opacity="0.08" stroke-width="1" />
+  <line x1="0" y1="105" x2="850" y2="105" stroke="#00FF41" stroke-opacity="0.08" stroke-width="1" />
+  <line x1="0" y1="158" x2="850" y2="158" stroke="#00FF41" stroke-opacity="0.08" stroke-width="1" />
+  <line x1="212" y1="0" x2="212" y2="210" stroke="#00FF41" stroke-opacity="0.08" stroke-width="1" />
+  <line x1="425" y1="0" x2="425" y2="210" stroke="#00FF41" stroke-opacity="0.08" stroke-width="1" />
+  <line x1="637" y1="0" x2="637" y2="210" stroke="#00FF41" stroke-opacity="0.08" stroke-width="1" />
+
+  <!-- Cyber Corner Accents -->
+  <path d="M16 38 V16 H38" stroke="#00FF41" stroke-width="3" fill="none" />
+  <path d="M834 172 V194 H812" stroke="#00FF41" stroke-width="3" fill="none" />
+
+  <!-- Text Content -->
+  <text x="50" y="62" fill="#00FF41" font-family="monospace" font-size="14" letter-spacing="3">
+    // IDENTITY_VERIFIED
+  </text>
+  <text x="50" y="114" fill="#FFFFFF" font-family="sans-serif" font-size="42" font-weight="bold" letter-spacing="1">
+    Hi, I'm <tspan fill="#00FF41">Yuda</tspan>
+  </text>
+  <text x="50" y="148" fill="#A3B3BC" font-family="monospace" font-size="18">
+    :: Web Developer  |  Desain Grafis
+  </text>
+  <text x="50" y="178" fill="#6E7681" font-family="monospace" font-size="13">
+    Building modern web interfaces + visual aesthetics // GitHub: @Rexxy-4V
+  </text>
+
+  <!-- Right Side HUD Graphic -->
+  <circle cx="715" cy="105" r="56" stroke="#00FF41" stroke-width="1.5" stroke-dasharray="12 6" fill="none" />
+  <circle cx="715" cy="105" r="40" stroke="#00FF41" stroke-width="2" fill="#00FF41" fill-opacity="0.08" />
+  <text x="715" y="111" text-anchor="middle" fill="#00FF41" font-family="monospace" font-size="16" font-weight="bold">
+    [ DEV ]
+  </text>
+</svg>

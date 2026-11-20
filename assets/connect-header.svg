@@ -1,0 +1,31 @@
+<svg width="850" height="95" viewBox="0 0 850 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lineGrad" x1="50" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00FF41" stop-opacity="0" />
+      <stop offset="35%" stop-color="#00FF41" stop-opacity="0.9" />
+      <stop offset="65%" stop-color="#00B894" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#00FF41" stop-opacity="0" />
+    </linearGradient>
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Judul Utama CONNECT -->
+  <text x="425" y="36" text-anchor="middle" fill="#00FF41" font-family="sans-serif" font-size="26" font-weight="bold" letter-spacing="8" filter="url(#neonGlow)">
+    CONNECT
+  </text>
+
+  <!-- Subjudul Uplink -->
+  <text x="425" y="62" text-anchor="middle" fill="#00B894" font-family="monospace" font-size="11" letter-spacing="3.5">
+    // ESTABLISHING UPLINK — YUDA (REXXY-4V)
+  </text>
+
+  <!-- Garis Pembatas Glowing -->
+  <line x1="60" y1="82" x2="790" y2="82" stroke="url(#lineGrad)" stroke-width="1.5" />
+  <circle cx="330" cy="82" r="3" fill="#00FF41" filter="url(#neonGlow)" />
+</svg>
