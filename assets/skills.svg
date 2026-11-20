@@ -1,0 +1,95 @@
+<svg width="850" height="190" viewBox="0 0 850 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes wavePulse {
+      0%, 100% { fill-opacity: 0.08; stroke-opacity: 0.5; }
+      50% { fill-opacity: 0.25; stroke-opacity: 1; }
+    }
+    @keyframes beamMove {
+      0% { transform: translateX(-200px); }
+      100% { transform: translateX(900px); }
+    }
+    .mod1 { animation: wavePulse 3s infinite ease-in-out 0.0s; }
+    .mod2 { animation: wavePulse 3s infinite ease-in-out 0.3s; }
+    .mod3 { animation: wavePulse 3s infinite ease-in-out 0.6s; }
+    .mod4 { animation: wavePulse 3s infinite ease-in-out 0.9s; }
+    .mod5 { animation: wavePulse 3s infinite ease-in-out 1.2s; }
+    .beam { animation: beamMove 3.5s infinite linear; }
+  </style>
+
+  <defs>
+    <clipPath id="skillClip">
+      <polygon points="18,0 832,0 850,18 850,172 832,190 18,190 0,172 0,18" />
+    </clipPath>
+    <linearGradient id="skillBeam" x1="0" y1="0" x2="180" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00FF41" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00FF41" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00FF41" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="dividerClip">
+      <rect x="30" y="52" width="790" height="2" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#skillClip)">
+    <rect width="850" height="190" fill="#080D11" />
+  </g>
+
+  <!-- Beveled Card Frame -->
+  <polygon points="18,1 832,1 849,18 849,172 832,189 18,189 1,172 1,18" stroke="#00FF41" stroke-opacity="0.55" stroke-width="1.5" fill="none" />
+
+  <!-- Section Title -->
+  <text x="32" y="38" fill="#00FF41" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="2.5">
+    [ SYSTEM_MODULES // TECH + DESIGN_ARSENAL ]
+  </text>
+  <text x="725" y="38" fill="#00E5FF" font-family="monospace" font-size="11" letter-spacing="1.5">
+    8 MODULES READY
+  </text>
+
+  <!-- Animated Divider -->
+  <line x1="30" y1="53" x2="820" y2="53" stroke="#00FF41" stroke-opacity="0.2" stroke-width="1" />
+  <g clip-path="url(#dividerClip)">
+    <rect class="beam" x="0" y="52" width="180" height="2" fill="url(#skillBeam)" />
+  </g>
+
+  <!-- ROW 1: DEV MODULES (Chamfered Chips) -->
+  <!-- PHP / LARAVEL -->
+  <polygon class="mod1" points="38,72 168,72 176,80 176,108 30,108 30,80" fill="#00FF41" stroke="#00FF41" stroke-width="1.2" />
+  <circle cx="43" cy="90" r="2.5" fill="#00FF41" />
+  <text x="108" y="94" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="12.5" font-weight="bold">PHP / LARAVEL</text>
+
+  <!-- BLADE UI -->
+  <polygon class="mod2" points="196,72 306,72 314,80 314,108 188,108 188,80" fill="#00FF41" stroke="#00FF41" stroke-width="1.2" />
+  <circle cx="201" cy="90" r="2.5" fill="#00FF41" />
+  <text x="255" y="94" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="12.5" font-weight="bold">BLADE UI</text>
+
+  <!-- JAVASCRIPT -->
+  <polygon class="mod3" points="334,72 454,72 462,80 462,108 326,108 326,80" fill="#00FF41" stroke="#00FF41" stroke-width="1.2" />
+  <circle cx="339" cy="90" r="2.5" fill="#00FF41" />
+  <text x="398" y="94" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="12.5" font-weight="bold">JAVASCRIPT</text>
+
+  <!-- HTML5 / CSS3 -->
+  <polygon class="mod4" points="482,72 608,72 616,80 616,108 474,108 474,80" fill="#00FF41" stroke="#00FF41" stroke-width="1.2" />
+  <circle cx="487" cy="90" r="2.5" fill="#00FF41" />
+  <text x="549" y="94" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="12.5" font-weight="bold">HTML5 / CSS3</text>
+
+  <!-- JAVA -->
+  <polygon class="mod5" points="636,72 722,72 730,80 730,108 628,108 628,80" fill="#00FF41" stroke="#00FF41" stroke-width="1.2" />
+  <circle cx="641" cy="90" r="2.5" fill="#00FF41" />
+  <text x="683" y="94" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="12.5" font-weight="bold">JAVA</text>
+
+  <!-- ROW 2: CREATIVE & DESIGN MODULES (Cyan/Green Accent) -->
+  <!-- GRAPHIC DESIGN -->
+  <polygon class="mod2" points="38,124 188,124 196,132 196,160 30,160 30,132" fill="#00E5FF" stroke="#00E5FF" stroke-width="1.2" />
+  <circle cx="43" cy="142" r="2.5" fill="#00E5FF" />
+  <text x="118" y="146" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="12.5" font-weight="bold">GRAPHIC DESIGN</text>
+
+  <!-- UI/UX LAYOUT -->
+  <polygon class="mod3" points="216,124 356,124 364,132 364,160 208,160 208,132" fill="#00E5FF" stroke="#00E5FF" stroke-width="1.2" />
+  <circle cx="221" cy="142" r="2.5" fill="#00E5FF" />
+  <text x="290" y="146" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="12.5" font-weight="bold">UI/UX LAYOUT</text>
+
+  <!-- VECTOR + BRANDING -->
+  <polygon class="mod4" points="384,124 554,124 562,132 562,160 376,160 376,132" fill="#00E5FF" stroke="#00E5FF" stroke-width="1.2" />
+  <circle cx="389" cy="142" r="2.5" fill="#00E5FF" />
+  <text x="473" y="146" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="12.5" font-weight="bold">VECTOR + BRANDING</text>
+</svg>

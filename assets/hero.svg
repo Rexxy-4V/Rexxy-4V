@@ -1,0 +1,117 @@
+<svg width="850" height="230" viewBox="0 0 850 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes spinFast { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @keyframes spinRev { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+    @keyframes pulseCore { 0%, 100% { transform: scale(1); opacity: 0.9; } 50% { transform: scale(1.08); opacity: 0.4; } }
+    @keyframes glitchShift {
+      0%, 92%, 100% { transform: translate(0, 0); opacity: 0; }
+      94% { transform: translate(-3px, 1px); opacity: 0.7; }
+      96% { transform: translate(3px, -1px); opacity: 0.7; }
+      98% { transform: translate(-2px, 0); opacity: 0.5; }
+    }
+    @keyframes floatUp1 { 0% { transform: translateY(230px); opacity: 0; } 50% { opacity: 0.8; } 100% { transform: translateY(-20px); opacity: 0; } }
+    @keyframes floatUp2 { 0% { transform: translateY(230px); opacity: 0; } 50% { opacity: 0.6; } 100% { transform: translateY(-20px); opacity: 0; } }
+    @keyframes circuitFlow { to { stroke-dashoffset: -120; } }
+
+    .gyro-1 { transform-origin: 705px 115px; animation: spinFast 16s linear infinite; }
+    .gyro-2 { transform-origin: 705px 115px; animation: spinRev 10s linear infinite; }
+    .gyro-3 { transform-origin: 705px 115px; animation: spinFast 6s linear infinite; }
+    .core-pulse { transform-origin: 705px 115px; animation: pulseCore 2.5s ease-in-out infinite; }
+    .glitch-cyan { animation: glitchShift 4.5s infinite; }
+    .p1 { animation: floatUp1 5s infinite linear 0s; }
+    .p2 { animation: floatUp2 6.5s infinite linear 2s; }
+    .p3 { animation: floatUp1 4.5s infinite linear 3.2s; }
+    .circuit-line { stroke-dasharray: 20 100; animation: circuitFlow 3s linear infinite; }
+  </style>
+
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="850" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#060A0D" />
+      <stop offset="60%" stop-color="#0A1711" />
+      <stop offset="100%" stop-color="#071314" />
+    </linearGradient>
+    <linearGradient id="neonEdge" x1="0" y1="0" x2="850" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00FF41" />
+      <stop offset="50%" stop-color="#00B894" />
+      <stop offset="100%" stop-color="#00E5FF" />
+    </linearGradient>
+    <clipPath id="heroFrame">
+      <polygon points="24,0 826,0 850,24 850,206 826,230 24,230 0,206 0,24" />
+    </clipPath>
+    <filter id="cyberGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#heroFrame)">
+    <!-- Dark Cyber Base -->
+    <rect width="850" height="230" fill="url(#heroBg)" />
+
+    <!-- Perspective Grid Lines -->
+    <line x1="0" y1="57" x2="850" y2="57" stroke="#00FF41" stroke-opacity="0.06" stroke-width="1" />
+    <line x1="0" y1="115" x2="850" y2="115" stroke="#00FF41" stroke-opacity="0.06" stroke-width="1" />
+    <line x1="0" y1="172" x2="850" y2="172" stroke="#00FF41" stroke-opacity="0.06" stroke-width="1" />
+    <line x1="170" y1="0" x2="170" y2="230" stroke="#00FF41" stroke-opacity="0.06" stroke-width="1" />
+    <line x1="340" y1="0" x2="340" y2="230" stroke="#00FF41" stroke-opacity="0.06" stroke-width="1" />
+    <line x1="510" y1="0" x2="510" y2="230" stroke="#00FF41" stroke-opacity="0.06" stroke-width="1" />
+
+    <!-- Animated Circuit Trace -->
+    <path d="M 40 200 H 260 L 285 175 H 550" stroke="#00FF41" stroke-opacity="0.15" stroke-width="1.5" fill="none" />
+    <path class="circuit-line" d="M 40 200 H 260 L 285 175 H 550" stroke="#00FF41" stroke-width="2" fill="none" />
+
+    <!-- Floating Data Particles -->
+    <rect class="p1" x="140" y="0" width="2" height="14" fill="#00FF41" opacity="0.5" />
+    <rect class="p2" x="460" y="0" width="2" height="18" fill="#00E5FF" opacity="0.5" />
+    <rect class="p3" x="580" y="0" width="2" height="12" fill="#00FF41" opacity="0.5" />
+  </g>
+
+  <!-- Outer Chamfered Frame -->
+  <polygon points="24,1.5 826,1.5 848.5,24 848.5,206 826,228.5 24,228.5 1.5,206 1.5,24" stroke="url(#neonEdge)" stroke-width="2" fill="none" />
+
+  <!-- Top & Bottom Tech Notches -->
+  <polygon points="280,1.5 570,1.5 555,10 295,10" fill="#00FF41" fill-opacity="0.2" stroke="#00FF41" stroke-width="1" />
+  <polygon points="320,228.5 530,228.5 518,220 332,220" fill="#00FF41" fill-opacity="0.2" stroke="#00FF41" stroke-width="1" />
+
+  <!-- Left Status Pill -->
+  <rect x="48" y="42" width="195" height="24" rx="4" fill="#00FF41" fill-opacity="0.1" stroke="#00FF41" stroke-opacity="0.5" stroke-width="1" />
+  <circle cx="62" cy="54" r="3.5" fill="#00FF41" />
+  <text x="74" y="58" fill="#00FF41" font-family="monospace" font-size="11.5" font-weight="bold" letter-spacing="2">
+    IDENTITY_VERIFIED
+  </text>
+
+  <!-- Main Name with Chromatic Glitch Layer -->
+  <text class="glitch-cyan" x="48" y="118" fill="#00E5FF" font-family="sans-serif" font-size="46" font-weight="bold" letter-spacing="1">
+    Hi, I'm Yuda
+  </text>
+  <text x="48" y="118" fill="#FFFFFF" font-family="sans-serif" font-size="46" font-weight="bold" letter-spacing="1">
+    Hi, I'm <tspan fill="#00FF41" filter="url(#cyberGlow)">Yuda</tspan>
+  </text>
+
+  <!-- Role & Tagline -->
+  <text x="48" y="154" fill="#E2E8F0" font-family="monospace" font-size="18" font-weight="bold">
+    >_ Web Developer  <tspan fill="#00FF41">//</tspan>  Desain Grafis
+  </text>
+  <text x="48" y="185" fill="#718096" font-family="monospace" font-size="12.5" letter-spacing="0.5">
+    Crafting futuristic interfaces + visual aesthetics  |  @Rexxy-4V
+  </text>
+
+  <!-- 3-Layer Rotating Sci-Fi Gyroscope -->
+  <circle class="gyro-1" cx="705" cy="115" r="72" stroke="#00FF41" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="28 12 6 12" fill="none" />
+  <circle class="gyro-2" cx="705" cy="115" r="56" stroke="#00E5FF" stroke-opacity="0.7" stroke-width="2" stroke-dasharray="40 18" fill="none" />
+  <circle class="gyro-3" cx="705" cy="115" r="42" stroke="#00FF41" stroke-width="2" stroke-dasharray="14 8" fill="none" />
+  <circle class="core-pulse" cx="705" cy="115" r="32" fill="#00FF41" fill-opacity="0.12" />
+  
+  <!-- Crosshair Reticle -->
+  <line x1="620" y1="115" x2="642" y2="115" stroke="#00FF41" stroke-width="1.5" />
+  <line x1="768" y1="115" x2="790" y2="115" stroke="#00FF41" stroke-width="1.5" />
+  <line x1="705" y1="30" x2="705" y2="52" stroke="#00FF41" stroke-width="1.5" />
+  <line x1="705" y1="178" x2="705" y2="200" stroke="#00FF41" stroke-width="1.5" />
+
+  <text x="705" y="120" text-anchor="middle" fill="#00FF41" font-family="monospace" font-size="14" font-weight="bold" filter="url(#cyberGlow)">
+    YUDA.OS
+  </text>
+</svg>

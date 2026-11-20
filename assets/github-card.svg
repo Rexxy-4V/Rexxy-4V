@@ -1,0 +1,70 @@
+<svg width="290" height="88" viewBox="0 0 290 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes sonarPing2 {
+      0% { transform: scale(0.8); opacity: 0.9; }
+      100% { transform: scale(1.55); opacity: 0; }
+    }
+    @keyframes arrowFlow2 {
+      0%, 100% { transform: translateX(0px); opacity: 0.4; }
+      50% { transform: translateX(5px); opacity: 1; }
+    }
+    @keyframes cardScan2 {
+      0% { transform: translateX(-120px); }
+      100% { transform: translateX(380px); }
+    }
+    .ping2 { transform-origin: 44px 44px; animation: sonarPing2 2.2s infinite ease-out 1.1s; }
+    .a1 { animation: arrowFlow2 1.3s infinite ease-in-out 0s; }
+    .a2 { animation: arrowFlow2 1.3s infinite ease-in-out 0.2s; }
+    .a3 { animation: arrowFlow2 1.3s infinite ease-in-out 0.4s; }
+    .scan2 { animation: cardScan2 3.6s infinite linear 1.8s; }
+  </style>
+
+  <defs>
+    <linearGradient id="ghBg" x1="0" y1="0" x2="290" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#08140E" />
+      <stop offset="100%" stop-color="#0B191B" />
+    </linearGradient>
+    <linearGradient id="ghBorder" x1="0" y1="0" x2="290" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00FF41" />
+      <stop offset="100%" stop-color="#00E5FF" />
+    </linearGradient>
+    <linearGradient id="ghSweep" x1="0" y1="0" x2="90" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00E5FF" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="ghClip">
+      <polygon points="14,0 276,0 290,14 290,74 276,88 14,88 0,74 0,14" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#ghClip)">
+    <rect width="290" height="88" fill="url(#ghBg)" />
+    <rect class="scan2" x="0" y="0" width="90" height="88" fill="url(#ghSweep)" />
+  </g>
+
+  <!-- Chamfered Frame -->
+  <polygon points="14,1.5 276,1.5 288.5,14 288.5,74 276,86.5 14,86.5 1.5,74 1.5,14" stroke="url(#ghBorder)" stroke-width="1.6" fill="none" />
+
+  <!-- Left Accent Block -->
+  <polygon points="14,1.5 22,1.5 12,86.5 14,86.5 1.5,74 1.5,14" fill="#00E5FF" fill-opacity="0.25" />
+
+  <!-- Sonar Ring & Code Icon Box -->
+  <circle class="ping2" cx="44" cy="44" r="20" stroke="#00E5FF" stroke-width="1.5" fill="none" />
+  <rect x="27" y="27" width="34" height="34" rx="8" fill="#00E5FF" fill-opacity="0.1" stroke="#00E5FF" stroke-width="1.8" />
+  <path d="M40 38 L34 44 L40 50" stroke="#00FF41" stroke-width="2" fill="none" />
+  <path d="M48 38 L54 44 L48 50" stroke="#00E5FF" stroke-width="2" fill="none" />
+
+  <!-- Text & Handle -->
+  <text x="76" y="39" fill="#FFFFFF" font-family="monospace" font-size="15" font-weight="bold" letter-spacing="2">
+    GITHUB
+  </text>
+  <text x="76" y="57" fill="#00E5FF" font-family="monospace" font-size="11" letter-spacing="1">
+    @Rexxy-4V
+  </text>
+
+  <!-- Triple Animated Chevrons -->
+  <path class="a1" d="M238 38 L244 44 L238 50" stroke="#00FF41" stroke-width="1.8" fill="none" />
+  <path class="a2" d="M246 38 L252 44 L246 50" stroke="#00E5FF" stroke-width="1.8" fill="none" />
+  <path class="a3" d="M254 38 L260 44 L254 50" stroke="#00FF41" stroke-width="1.8" fill="none" />
+</svg>

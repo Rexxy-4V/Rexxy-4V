@@ -1,0 +1,71 @@
+<svg width="290" height="88" viewBox="0 0 290 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes sonarPing {
+      0% { transform: scale(0.8); opacity: 0.9; }
+      100% { transform: scale(1.55); opacity: 0; }
+    }
+    @keyframes arrowFlow {
+      0%, 100% { transform: translateX(0px); opacity: 0.4; }
+      50% { transform: translateX(5px); opacity: 1; }
+    }
+    @keyframes cardScan {
+      0% { transform: translateX(-120px); }
+      100% { transform: translateX(380px); }
+    }
+    .ping { transform-origin: 44px 44px; animation: sonarPing 2.2s infinite ease-out; }
+    .a1 { animation: arrowFlow 1.3s infinite ease-in-out 0s; }
+    .a2 { animation: arrowFlow 1.3s infinite ease-in-out 0.2s; }
+    .a3 { animation: arrowFlow 1.3s infinite ease-in-out 0.4s; }
+    .scan { animation: cardScan 3.6s infinite linear; }
+  </style>
+
+  <defs>
+    <linearGradient id="igBg" x1="0" y1="0" x2="290" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#08140E" />
+      <stop offset="100%" stop-color="#0B191B" />
+    </linearGradient>
+    <linearGradient id="igBorder" x1="0" y1="0" x2="290" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00FF41" />
+      <stop offset="100%" stop-color="#00E5FF" />
+    </linearGradient>
+    <linearGradient id="igSweep" x1="0" y1="0" x2="90" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00FF41" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00FF41" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#00FF41" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="igClip">
+      <polygon points="14,0 276,0 290,14 290,74 276,88 14,88 0,74 0,14" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#igClip)">
+    <rect width="290" height="88" fill="url(#igBg)" />
+    <rect class="scan" x="0" y="0" width="90" height="88" fill="url(#igSweep)" />
+  </g>
+
+  <!-- Chamfered Frame -->
+  <polygon points="14,1.5 276,1.5 288.5,14 288.5,74 276,86.5 14,86.5 1.5,74 1.5,14" stroke="url(#igBorder)" stroke-width="1.6" fill="none" />
+  
+  <!-- Left Accent Block -->
+  <polygon points="14,1.5 22,1.5 12,86.5 14,86.5 1.5,74 1.5,14" fill="#00FF41" fill-opacity="0.25" />
+
+  <!-- Sonar Ring & Icon Box -->
+  <circle class="ping" cx="44" cy="44" r="20" stroke="#00FF41" stroke-width="1.5" fill="none" />
+  <rect x="27" y="27" width="34" height="34" rx="8" fill="#00FF41" fill-opacity="0.1" stroke="#00FF41" stroke-width="1.8" />
+  <rect x="34" y="34" width="20" height="20" rx="5" stroke="#00FF41" stroke-width="1.8" fill="none" />
+  <circle cx="44" cy="44" r="4.5" stroke="#00FF41" stroke-width="1.8" fill="none" />
+  <circle cx="49.5" cy="38.5" r="1.2" fill="#00FF41" />
+
+  <!-- Text & Handle -->
+  <text x="76" y="39" fill="#FFFFFF" font-family="monospace" font-size="15" font-weight="bold" letter-spacing="2">
+    INSTAGRAM
+  </text>
+  <text x="76" y="57" fill="#00FF41" font-family="monospace" font-size="11" letter-spacing="1">
+    @yudaknow
+  </text>
+
+  <!-- Triple Animated Chevrons -->
+  <path class="a1" d="M238 38 L244 44 L238 50" stroke="#00FF41" stroke-width="1.8" fill="none" />
+  <path class="a2" d="M246 38 L252 44 L246 50" stroke="#00E5FF" stroke-width="1.8" fill="none" />
+  <path class="a3" d="M254 38 L260 44 L254 50" stroke="#00FF41" stroke-width="1.8" fill="none" />
+</svg>
