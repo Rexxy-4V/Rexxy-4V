@@ -1,20 +1,34 @@
-![RExxy](img/github-header1-image.png)
+<div align="center">
+  <!-- Banner Utama -->
+  <img src="img/github-header1-image.png" alt="RExxy" width="100%" />
 
-![Rexxy's GitHub stats](https://github-readme-stats.vercel.app/api?username=Rexxy-4V&show_icons=true&theme=transparent)
+  <br><br>
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=Rexxy-4v&theme=transparent)](https://git.io/streak-stats)
+  <!-- Membuat GitHub Stats & Streak Sejajar (2 Kolom) -->
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=Rexxy-4V&show_icons=true&theme=transparent" alt="Rexxy's GitHub stats" />
+      </td>
+      <td align="center">
+        <a href="https://git.io/streak-stats">
+          <img src="https://streak-stats.demolab.com/?user=Rexxy-4v&theme=transparent" alt="GitHub Streak" />
+        </a>
+      </td>
+    </tr>
+  </table>
 
-![Rexxy's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Rexxy-4V&theme=transparent&show_icons=true&hide_border=false&layout=compact)
+  <br>
 
+  <!-- Top Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rexxy-4V&theme=transparent&show_icons=true&hide_border=false&layout=compact" alt="Rexxy's Top Languages" />
 
-<h3 align="center">Fun game !!</h3>
+  <h3>Fun game !!</h3>
 
-###
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rexxy-4v/rexxy-4v/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rexxy-4v/rexxy-4v/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/rexxy-4v/rexxy-4v/output/pacman-contribution-graph.svg">
-</picture>
-
-###
+  <!-- Pacman Graph -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rexxy-4v/rexxy-4v/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rexxy-4v/rexxy-4v/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/rexxy-4v/rexxy-4v/output/pacman-contribution-graph.svg">
+  </picture>
+</div>
