@@ -1,27 +1,50 @@
 <div align="center">
 
-  <!-- Header Typing Bergaya Terminal Cyber -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=SYSTEM_ONLINE+%3A%3A+REXXY-4V;WEB_DEVELOPER+%7C%7C+GRAPHIC_DESIGNER;WELCOME_TO_MY_GITHUB_PROFILE" alt="Typing SVG" />
-  </a>
-
-  <br>
-
-  <!-- Banner Utama -->
-  <img src="img/github-header1-image.png" alt="RExxy Banner" width="100%" />
+  <!-- 1. Top Terminal Bar -->
+  <img src="assets/header.svg" alt="Header" width="100%" />
 
   <br><br>
 
-  <!-- Pembatas Cyber -->
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+  <!-- 2. Hero Identity Card (Yuda) -->
+  <img src="assets/hero.svg" alt="Hero Yuda" width="100%" />
 
-  <h3><code>[ SYSTEM_ANALYTICS // GITHUB_STATS ]</code></h3>
+  <br><br>
 
-  <!-- Baris 1: GitHub Stats & Streak (Tema Hijau Cyber) -->
+  <!-- 3. Social Media Bar dengan Bracket Kiri & Kanan -->
+  <p>
+    <img src="assets/bracket-left.svg" height="36" align="center" />
+    &nbsp;
+    <a href="https://instagram.com/USERNAME_IG_KAMU">
+      <img src="https://img.shields.io/badge/INSTAGRAM-0D1117?style=for-the-badge&logo=instagram&logoColor=00FF41" height="34" align="center" />
+    </a>
+    &nbsp;
+    <a href="https://linkedin.com/in/USERNAME_LINKEDIN_KAMU">
+      <img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=00FF41" height="34" align="center" />
+    </a>
+    &nbsp;
+    <a href="https://t.me/USERNAME_TELEGRAM_KAMU">
+      <img src="https://img.shields.io/badge/TELEGRAM-0D1117?style=for-the-badge&logo=telegram&logoColor=00FF41" height="34" align="center" />
+    </a>
+    &nbsp;
+    <a href="https://x.com/USERNAME_X_KAMU">
+      <img src="https://img.shields.io/badge/X_/_TWITTER-0D1117?style=for-the-badge&logo=x&logoColor=00FF41" height="34" align="center" />
+    </a>
+    &nbsp;
+    <img src="assets/bracket-right.svg" height="36" align="center" />
+  </p>
+
+  <br>
+
+  <!-- 4. Custom Skills SVG Card -->
+  <img src="assets/skills.svg" alt="Yuda Skills" width="100%" />
+
+  <br><br>
+
+  <!-- 5. GitHub Stats & Streak (Tema Hijau Cyber) -->
   <table>
     <tr>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=Rexxy-4V&show_icons=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&border_color=00ff41&border_radius=10" alt="Rexxy's GitHub stats" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Rexxy-4V&show_icons=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&border_color=00ff41&border_radius=10" alt="Yuda's GitHub stats" width="100%" />
       </td>
       <td align="center" width="50%">
         <a href="https://git.io/streak-stats">
@@ -33,17 +56,13 @@
 
   <br>
 
-  <!-- Baris 2: Top Languages (Tema Hijau Cyber) -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rexxy-4V&layout=compact&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=00ff41&border_radius=10" alt="Rexxy's Top Languages" width="48%" />
+  <!-- 6. Most Used Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rexxy-4V&layout=compact&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=00ff41&border_radius=10" alt="Most Used Languages" width="48%" />
 
   <br><br>
 
-  <!-- Pembatas Cyber -->
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-  <h3><code>&gt;_ FUN_GAME.EXE // CONTRIBUTION_SNAKE</code></h3>
-
-  <!-- Baris 3: Pacman Contribution Graph -->
+  <!-- 7. Pacman Contribution Game -->
+  <h3><code>&gt;_ FUN_GAME.EXE</code></h3>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rexxy-4v/rexxy-4v/output/pacman-contribution-graph-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rexxy-4v/rexxy-4v/output/pacman-contribution-graph.svg">
