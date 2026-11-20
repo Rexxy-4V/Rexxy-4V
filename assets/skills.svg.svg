@@ -1,0 +1,44 @@
+<svg width="850" height="170" viewBox="0 0 850 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="850" height="170" rx="12" fill="#0D1117" stroke="#00FF41" stroke-opacity="0.5" stroke-width="1.5" />
+  
+  <text x="30" y="35" fill="#00FF41" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="2">
+    [ TECH_STACK & CREATIVE_ARSENAL ]
+  </text>
+  <line x1="30" y1="48" x2="820" y2="48" stroke="#00FF41" stroke-opacity="0.2" stroke-width="1" />
+
+  <!-- Row 1: Web Development -->
+  <g transform="translate(30, 65)">
+    <rect width="120" height="34" rx="6" fill="#0E1D15" stroke="#00FF41" stroke-width="1" />
+    <text x="60" y="22" text-anchor="middle" fill="#00FF41" font-family="monospace" font-size="13" font-weight="bold">PHP / LARAVEL</text>
+  </g>
+  <g transform="translate(162, 65)">
+    <rect width="110" height="34" rx="6" fill="#0E1D15" stroke="#00FF41" stroke-width="1" />
+    <text x="55" y="22" text-anchor="middle" fill="#00FF41" font-family="monospace" font-size="13" font-weight="bold">BLADE UI</text>
+  </g>
+  <g transform="translate(284, 65)">
+    <rect width="120" height="34" rx="6" fill="#0E1D15" stroke="#00FF41" stroke-width="1" />
+    <text x="60" y="22" text-anchor="middle" fill="#00FF41" font-family="monospace" font-size="13" font-weight="bold">JAVASCRIPT</text>
+  </g>
+  <g transform="translate(416, 65)">
+    <rect width="120" height="34" rx="6" fill="#0E1D15" stroke="#00FF41" stroke-width="1" />
+    <text x="60" y="22" text-anchor="middle" fill="#00FF41" font-family="monospace" font-size="13" font-weight="bold">HTML5 / CSS3</text>
+  </g>
+  <g transform="translate(548, 65)">
+    <rect width="95" height="34" rx="6" fill="#0E1D15" stroke="#00FF41" stroke-width="1" />
+    <text x="47.5" y="22" text-anchor="middle" fill="#00FF41" font-family="monospace" font-size="13" font-weight="bold">JAVA</text>
+  </g>
+
+  <!-- Row 2: Desain Grafis -->
+  <g transform="translate(30, 112)">
+    <rect width="150" height="34" rx="6" fill="#131920" stroke="#00FF41" stroke-opacity="0.7" stroke-width="1" />
+    <text x="75" y="22" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="13">GRAPHIC DESIGN</text>
+  </g>
+  <g transform="translate(192, 112)">
+    <rect width="140" height="34" rx="6" fill="#131920" stroke="#00FF41" stroke-opacity="0.7" stroke-width="1" />
+    <text x="70" y="22" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="13">UI/UX LAYOUT</text>
+  </g>
+  <g transform="translate(344, 112)">
+    <rect width="160" height="34" rx="6" fill="#131920" stroke="#00FF41" stroke-opacity="0.7" stroke-width="1" />
+    <text x="80" y="22" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="13">VECTOR & BRANDING</text>
+  </g>
+</svg>

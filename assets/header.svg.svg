@@ -1,0 +1,12 @@
+<svg width="850" height="45" viewBox="0 0 850 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="850" height="45" rx="8" fill="#0D1117" stroke="#00FF41" stroke-opacity="0.4" stroke-width="1.5" />
+  <circle cx="24" cy="22.5" r="5" fill="#FF5F56" />
+  <circle cx="42" cy="22.5" r="5" fill="#FFBD2E" />
+  <circle cx="60" cy="22.5" r="5" fill="#00FF41" />
+  <text x="85" y="27" fill="#00FF41" font-family="monospace" font-size="13" font-weight="bold" letter-spacing="1.5">
+    ROOT@REXXY-4V:~/PORTFOLIO $ ./INIT_PROFILE.SH
+  </text>
+  <text x="720" y="27" fill="#00FF41" font-family="monospace" font-size="12" opacity="0.8">
+    [ ONLINE ]
+  </text>
+</svg>

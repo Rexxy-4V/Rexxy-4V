@@ -1,0 +1,40 @@
+<svg width="850" height="210" viewBox="0 0 850 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cyberBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D12" />
+      <stop offset="100%" stop-color="#0E1D15" />
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00FF41" stroke-width="0.5" stroke-opacity="0.12" />
+    </pattern>
+  </defs>
+
+  <!-- Background & Grid -->
+  <rect width="850" height="210" rx="14" fill="url(#cyberBg)" stroke="#00FF41" stroke-width="1.5" />
+  <rect width="850" height="210" rx="14" fill="url(#grid)" />
+
+  <!-- Cyber Corner Accents -->
+  <path d="M15 35 V15 H35" stroke="#00FF41" stroke-width="3" fill="none" />
+  <path d="M835 175 V195 H815" stroke="#00FF41" stroke-width="3" fill="none" />
+
+  <!-- Text Content -->
+  <text x="50" y="65" fill="#00FF41" font-family="monospace" font-size="14" letter-spacing="3">
+    // IDENTITY_VERIFIED
+  </text>
+  <text x="50" y="115" fill="#FFFFFF" font-family="sans-serif" font-size="42" font-weight="800" letter-spacing="1">
+    Hi, I'm <tspan fill="#00FF41">Yuda</tspan>
+  </text>
+  <text x="50" y="150" fill="#A3B3BC" font-family="monospace" font-size="18">
+    > Web Developer  |  Desain Grafis
+  </text>
+  <text x="50" y="180" fill="#6E7681" font-family="monospace" font-size="13">
+    Building modern web interfaces & visual aesthetics // GitHub: @Rexxy-4V
+  </text>
+
+  <!-- Right Side HUD Graphic -->
+  <circle cx="710" cy="105" r="55" stroke="#00FF41" stroke-width="1.5" stroke-dasharray="12 6" fill="none" />
+  <circle cx="710" cy="105" r="40" stroke="#00FF41" stroke-width="2" fill="#00FF41" fill-opacity="0.08" />
+  <text x="710" y="111" text-anchor="middle" fill="#00FF41" font-family="monospace" font-size="16" font-weight="bold">
+    <DEV/>
+  </text>
+</svg>
