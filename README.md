@@ -16,7 +16,7 @@
   <br><br>
 
   <!-- 4. Connect / Uplink Section -->
-  <img src="assets/connect-header.svg?v=2" alt="Connect Header" width="100%" />
+  <img src="assets/header.svg?v=2" alt="Connect Header" width="100%" />
 
   <p align="center">
     <a href="https://www.instagram.com/yudaknow?lqvp=MWp3bm1lMm94bWhqMw==" target="_blank">
